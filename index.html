@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" class="h-full">
- <head>
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shabnu Saman - Flutter Developer Portfolio</title>
@@ -9,14 +10,15 @@
     body {
       box-sizing: border-box;
     }
-    
+
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
 
-    html, body {
+    html,
+    body {
       height: 100%;
       scroll-behavior: smooth;
     }
@@ -634,7 +636,7 @@
       max-width: 1000px;
       margin: 3rem auto 0;
     }
-    
+
     @media (max-width: 768px) {
       .contact-links {
         grid-template-columns: 1fr;
@@ -761,422 +763,709 @@
       }
     }
   </style>
-  <style>@view-transition { navigation: auto; }</style>
+  <style>
+    @view-transition {
+      navigation: auto;
+    }
+  </style>
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
   <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
- </head>
- <body class="h-full">
+</head>
+
+<body class="h-full">
   <div class="portfolio-wrapper"><!-- Navigation -->
-   <nav class="nav-bar">
-    <div class="nav-content">
-     <div class="nav-logo">
-      Shabnu Saman
-     </div>
-     <ul class="nav-links">
-      <li><a href="#home" class="nav-link">Home</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#projects" class="nav-link">Projects</a></li>
-      <li><a href="#skills" class="nav-link">Skills</a></li>
-      <li><a href="#education" class="nav-link">Education</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-     </ul>
-    </div>
-   </nav><!-- Hero Section -->
-   <section class="hero-section" id="home">
-    <div class="hero-content">
-     <div class="hero-text">
-      <div class="hero-greeting">
-       👋 Hello, I'm
-      </div>
-      <h1 class="hero-name" id="developerName">Shabnu Saman</h1>
-      <h2 class="hero-title" id="jobTitle"> Software Engineer / Mobile Application Developing Using Flutter</h2>
-      <p class="hero-tagline" id="tagline">Building scalable cross-platform mobile applications with 2 years of expertise in Flutter, Dart, and modern mobile architecture</p>
-      <div class="cta-buttons"><a href="#projects" class="btn btn-primary">View Projects</a> <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-      </div>
-      <div class="hero-stats">
-       <div class="hero-stat"><span class="hero-stat-number">2+</span> <span class="hero-stat-label">Years Experience</span>
-       </div>
-       <div class="hero-stat"><span class="hero-stat-number">5+</span> <span class="hero-stat-label">Projects</span>
-       </div>
-       <div class="hero-stat"><span class="hero-stat-number">3</span> <span class="hero-stat-label">Gov Clients</span>
-       </div>
-      </div>
-     </div>
-     <div class="hero-visual">
-      <div class="hero-card">
-       <div class="hero-icon">
-        📱
-       </div>
-       <h3 class="hero-card-title">Cross-Platform Expert</h3>
-       <p class="hero-card-text">Specializing in Flutter development for iOS &amp; Android with clean architecture and modern design patterns</p>
-      </div>
-     </div>
-    </div>
-   </section><!-- About Section -->
-   <section class="about-section" id="about">
-    <div class="section-container">
-     <div class="profile-photo">
-      <img src="images/profile.jpg" alt="Shabnu Saman">
-     </div>
-     <div class="section-header"><span class="section-label">ABOUT ME</span>
-      <h2 class="section-title">Who I Am</h2>
-      <p class="section-subtitle">Passionate Flutter developer with proven expertise in government and enterprise solutions</p>
-     </div>
-     <div class="about-content">
-      <p class="about-text" id="aboutText">Flutter Developer with 2 years of experience building cross-platform mobile applications for iOS and Android. Skilled in Dart, Flutter framework, RESTful API integration, and state management using Bloc and Provider. Strong foundation in clean architecture, responsive UI/UX design, and mobile app optimization. Experienced in collaborating with designers and cross-functional teams to deliver scalable, high-performance applications across government finance, pollution control, and hospitality sectors.</p>
-     </div>
-    </div>
-   </section><!-- Projects Section -->
-   <section class="projects-section" id="projects">
-    <div class="section-container">
-     <div class="section-header"><span class="section-label">PORTFOLIO</span>
-      <h2 class="section-title">Featured Projects</h2>
-      <p class="section-subtitle">Government and enterprise mobile applications serving thousands of users</p>
-     </div>
-     <div class="projects-grid"><!-- PCB Kerala Project -->
-      <div class="project-card">
-       <div class="project-header">
-        <div class="project-icon">
-         🌍
+    <nav class="nav-bar">
+      <div class="nav-content">
+        <div class="nav-logo">
+          Shabnu Saman
         </div>
-        <h3 class="project-title">PCB Kerala</h3>
-        <p class="project-type">Pollution Control Mobile App</p>
-       </div>
-       <div class="project-content">
-        <p class="project-description">Comprehensive pollution control system for Kerala Pollution Control Board with multi-role access and real-time monitoring.</p>
-        <ul class="project-features">
-         <li class="project-feature">Secure authentication for citizens, industries &amp; officers</li>
-         <li class="project-feature">Waste management tracking with geotagging</li>
-         <li class="project-feature">Real-time compliance dashboards</li>
-         <li class="project-feature">Offline support for field inspectors</li>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-        <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Bloc</span> <span class="tag">Firebase</span> <span class="tag">Geolocation</span>
-        </div>
-       </div>
-      </div><!-- finAssam Project -->
-      <div class="project-card">
-       <div class="project-header">
-        <div class="project-icon">
-         💰
-        </div>
-        <h3 class="project-title">finAssam</h3>
-        <p class="project-type">Government Financial Admin App</p>
-       </div>
-       <div class="project-content">
-        <p class="project-description">Mobile-first financial administration platform for Assam Government enhancing transparency and workflow efficiency.</p>
-        <ul class="project-features">
-         <li class="project-feature">Paybill Module for salary bill submission</li>
-         <li class="project-feature">Employee &amp; payroll management workflows</li>
-         <li class="project-feature">Real-time treasury submission tracking</li>
-         <li class="project-feature">Admin dashboards for decision-making</li>
-        </ul>
-        <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Provider</span> <span class="tag">REST API</span> <span class="tag">Dashboard</span>
-        </div>
-       </div>
-      </div><!-- Jharkhand Finance Project -->
-      <div class="project-card">
-       <div class="project-header">
-        <div class="project-icon">
-         📊
-        </div>
-        <h3 class="project-title">Finance Jharkhand</h3>
-        <p class="project-type">IFMS &amp; Treasury System</p>
-       </div>
-       <div class="project-content">
-        <p class="project-description">Integrated Financial Management System for Jharkhand Government with comprehensive modules for transparency.</p>
-        <ul class="project-features">
-         <li class="project-feature">IFMS Dashboard &amp; Employee Portal</li>
-         <li class="project-feature">e-Pension Dashboard &amp; Treasury MIS</li>
-         <li class="project-feature">Public budget &amp; expenditure dashboards</li>
-         <li class="project-feature">Audit &amp; debt management modules</li>
-        </ul>
-        <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">GetX</span> <span class="tag">Charts</span> <span class="tag">Analytics</span>
-        </div>
-       </div>
-      </div><!-- Anugraha Project -->
-      <div class="project-card">
-       <div class="project-header">
-        <div class="project-icon">
-         🏨
-        </div>
-        <h3 class="project-title">Anugraha</h3>
-        <p class="project-type">Hospitality Management App</p>
-       </div>
-       <div class="project-content">
-        <p class="project-description">Hospitality management application with enhanced stability, intuitive UI, and seamless cross-platform performance.</p>
-        <ul class="project-features">
-         <li class="project-feature">Identified &amp; fixed critical bugs</li>
-         <li class="project-feature">Improved UI/UX elements</li>
-         <li class="project-feature">Enhanced navigation &amp; consistency</li>
-         <li class="project-feature">Performance optimization</li>
-        </ul>
-        <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Bloc</span> <span class="tag">Firebase</span> <span class="tag">Analytics</span>
-        </div>
-       </div>
-      </div><!-- VoteTrack Project -->
-      <div class="project-card">
-       <div class="project-header">
-        <div class="project-icon">
-         🗳️
-        </div>
-        <h3 class="project-title">VoteTrack</h3>
-        <p class="project-type">Voter & Event Participation Tracker</p>
-       </div>
-       <div class="project-content">
-        <p class="project-description">A comprehensive app for tracking eligible participants and monitoring polling or event participation with real-time statistics.</p>
-        <ul class="project-features">
-         <li class="project-feature">Track eligible voters and participants</li>
-         <li class="project-feature">Real-time participation statistics</li>
-         <li class="project-feature">Engagement trend analysis</li>
-         <li class="project-feature">Event organization tools</li>
-        </ul>
-        <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Bloc</span> <span class="tag">Firebase</span> <span class="tag">Analytics</span>
-        </div>
-       </div>
-      </div><!-- Wayanad Global KMCC Project -->
-      <div class="project-card">
-       <div class="project-header">
-        <div class="project-icon">
-         🌐
-        </div>
-        <h3 class="project-title">Wayanad Global KMCC</h3>
-        <p class="project-type">Community Engagement Platform</p>
-       </div>
-       <div class="project-content">
-        <p class="project-description">A community engagement platform for Wayanad Global KMCC with member management and event coordination.</p>
-        <ul class="project-features">
-         <li class="project-feature">Member management system</li>
-         <li class="project-feature">Event coordination tools</li>
-         <li class="project-feature">Community announcements</li>
-         <li class="project-feature">Resource sharing</li>
-        </ul>
-        <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Provider</span> <span class="tag">Firebase</span> <span class="tag">Community</span>
-        </div>
-       </div>
       </div>
-     </div>
-    </div>
-   </section><!-- Skills Section -->
-   <section class="skills-section" id="skills">
-    <div class="section-container">
-     <div class="section-header"><span class="section-label">EXPERTISE</span>
-      <h2 class="section-title">Technical Skills</h2>
-      <p class="section-subtitle">Comprehensive skill set for modern mobile development</p>
-     </div>
-     <div class="skills-grid">
-      <div class="skill-card">
-       <div class="skill-icon">
-        💻
-       </div>
-       <h3 class="skill-title">Languages</h3>
-       <ul class="skill-list">
-        <li class="skill-item">Dart</li>
-        <li class="skill-item">Java</li>
-        <li class="skill-item">C &amp; C++</li>
-        <li class="skill-item">HTML &amp; CSS</li>
-        <li class="skill-item">Bootstrap</li>
-       </ul>
-      </div>
-      <div class="skill-card">
-       <div class="skill-icon">
-        📱
-       </div>
-       <h3 class="skill-title">Mobile Development</h3>
-       <ul class="skill-list">
-        <li class="skill-item">Flutter Framework</li>
-        <li class="skill-item">iOS &amp; Android Development</li>
-        <li class="skill-item">Responsive UI Design</li>
-        <li class="skill-item">Material Design</li>
-        <li class="skill-item">Custom Animations</li>
-       </ul>
-      </div>
-      <div class="skill-card">
-       <div class="skill-icon">
-        ⚡
-       </div>
-       <h3 class="skill-title">State Management</h3>
-       <ul class="skill-list">
-        <li class="skill-item">Bloc / Cubit</li>
-        <li class="skill-item">Provider</li>
-        <li class="skill-item">GetX</li>
-        <li class="skill-item">Clean Architecture</li>
-        <li class="skill-item">MVVM Pattern</li>
-       </ul>
-      </div>
-      <div class="skill-card">
-       <div class="skill-icon">
-        🔧
-       </div>
-       <h3 class="skill-title">Backend &amp; Database</h3>
-       <ul class="skill-list">
-        <li class="skill-item">Firebase Services</li>
-        <li class="skill-item">SQFlite</li>
-        <li class="skill-item">RESTful APIs</li>
-        <li class="skill-item">Spring Boot</li>
-        <li class="skill-item">API Integration</li>
-       </ul>
-      </div>
-      <div class="skill-card">
-       <div class="skill-icon">
-        🛠️
-       </div>
-       <h3 class="skill-title">Tools &amp; DevOps</h3>
-       <ul class="skill-list">
-        <li class="skill-item">Git &amp; GitHub</li>
-        <li class="skill-item">GitLab</li>
-        <li class="skill-item">CI/CD Pipelines</li>
-        <li class="skill-item">Unit Testing</li>
-        <li class="skill-item">Integration Testing</li>
-       </ul>
-      </div>
-      <div class="skill-card">
-       <div class="skill-icon">
-        🎯
-       </div>
-       <h3 class="skill-title">Soft Skills</h3>
-       <ul class="skill-list">
-        <li class="skill-item">Team Collaboration</li>
-        <li class="skill-item">Problem Solving</li>
-        <li class="skill-item">Adaptability</li>
-        <li class="skill-item">Communication</li>
-        <li class="skill-item">Time Management</li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </section><!-- Education Section -->
-   <section class="education-section" id="education">
-    <div class="section-container">
-     <div class="section-header"><span class="section-label">EDUCATION</span>
-      <h2 class="section-title">Academic Background</h2>
-      <p class="section-subtitle">Foundation in computer engineering and sciences</p>
-     </div>
-     <div class="timeline">
-      <div class="timeline-item">
-       <div class="timeline-icon">
-        🎓
-       </div>
-       <h3 class="timeline-title">Diploma in Computer Engineering</h3>
-       <p class="timeline-institution">IPT &amp; GPTC Shoranur</p>
-       <p class="timeline-date">July 2020 – April 2023</p>
-      </div>
-      <div class="timeline-item">
-       <div class="timeline-icon">
-        📚
-       </div>
-       <h3 class="timeline-title">Higher Secondary – Biology Science</h3>
-       <p class="timeline-institution">GOHSS, Pattambi</p>
-       <p class="timeline-date">June 2018 – March 2020</p>
-      </div>
-     </div>
-    </div>
-   </section><!-- Certifications Section -->
-   <section class="certifications-section">
-    <div class="section-container">
-     <div class="section-header"><span class="section-label">ACHIEVEMENTS</span>
-      <h2 class="section-title">Certifications &amp; Training</h2>
-      <p class="section-subtitle">Continuous learning and professional development</p>
-     </div>
-     <div class="cert-grid">
-      <div class="cert-item">
-       <div class="cert-icon">
-        🏆
-       </div>
-       <div class="cert-text">
-        <div class="cert-title">
-         Flutter Developer Certificate
+    </nav><!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-greeting">
+            👋 Hello, I'm
+          </div>
+          <h1 class="hero-name" id="developerName">Shabnu Saman</h1>
+          <h2 class="hero-title" id="jobTitle"> Software Engineer / Mobile Application Developing Using Flutter</h2>
+          <p class="hero-tagline" id="tagline">Building scalable cross-platform mobile applications with 2 years of
+            expertise in Flutter, Dart, and modern mobile architecture</p>
+          <div class="cta-buttons"><a href="#projects" class="btn btn-primary">View Projects</a> <a href="#contact"
+              class="btn btn-secondary">Get In Touch</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><span class="hero-stat-number">2+</span> <span class="hero-stat-label">Years
+                Experience</span>
+            </div>
+            <div class="hero-stat"><span class="hero-stat-number">5+</span> <span
+                class="hero-stat-label">Projects</span>
+            </div>
+            <div class="hero-stat"><span class="hero-stat-number">3</span> <span class="hero-stat-label">Gov
+                Clients</span>
+            </div>
+          </div>
         </div>
-        <div class="cert-issuer">
-         Camerin Group (Dec 2023 – Apr 2024)
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hero-icon">
+              📱
+            </div>
+            <h3 class="hero-card-title">Cross-Platform Expert</h3>
+            <p class="hero-card-text">Specializing in Flutter development for iOS &amp; Android with clean architecture
+              and modern design patterns</p>
+          </div>
         </div>
-       </div>
       </div>
-      <div class="cert-item">
-       <div class="cert-icon">
-        🎯
-       </div>
-       <div class="cert-text">
-        <div class="cert-title">
-         Industrial Training: Python + Android
+    </section><!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="section-container">
+        <div class="profile-photo">
+          <img src="images/profile.jpg" alt="Shabnu Saman">
         </div>
-        <div class="cert-issuer">
-         RISS Technologies (Sep – Oct 2022)
+        <div class="section-header"><span class="section-label">ABOUT ME</span>
+          <h2 class="section-title">Who I Am</h2>
+          <p class="section-subtitle">Passionate Flutter developer with proven expertise in government and enterprise
+            solutions</p>
         </div>
-       </div>
+        <div class="about-content">
+          <p class="about-text" id="aboutText">Flutter Developer with 2 years of experience building cross-platform
+            mobile applications for iOS and Android. Skilled in Dart, Flutter framework, RESTful API integration, and
+            state management using Bloc and Provider. Strong foundation in clean architecture, responsive UI/UX design,
+            and mobile app optimization. Experienced in collaborating with designers and cross-functional teams to
+            deliver scalable, high-performance applications across government finance, pollution control, and
+            hospitality sectors.</p>
+        </div>
       </div>
-      <div class="cert-item">
-       <div class="cert-icon">
-        📱
-       </div>
-       <div class="cert-text">
-        <div class="cert-title">
-         Flutter Online Course
+    </section><!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="section-container">
+        <div class="section-header"><span class="section-label">PORTFOLIO</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Government and enterprise mobile applications serving thousands of users</p>
         </div>
-        <div class="cert-issuer">
-         Udemy
+        <div class="projects-grid">
+
+          <!-- Smartflix.ae Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                🏙️
+              </div>
+              <h3 class="project-title">Smartflix.ae</h3>
+              <p class="project-type">Super App for UAE Market</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                A multi-service super application for the UAE market enabling business registration, property
+                transactions, product listings, and access to essential services like hotels, hospitals, security,
+                colleges, and more.
+              </p>
+              <ul class="project-features">
+                <li class="project-feature">Business registration for various sectors</li>
+                <li class="project-feature">Buy, sell, or rent properties and vehicles</li>
+                <li class="project-feature">Access hotels, doctors, security services, colleges, and other essential
+                  services</li>
+                <li class="project-feature">Location-based listings and search</li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">GetX</span>
+                <span class="tag">REST API</span>
+                <span class="tag">Location</span>
+              </div>
+             <div class="app-buttons" style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <a href="https://play.google.com/store/apps/details?id=com.dubai.kmcc" target="_blank"
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M2 12h20"></path>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                  Google Play Store Store
+                </a>
+                <a href="https://apps.apple.com/us/app/smatflix-ae/id1547109475" target="_blank" 
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #000000 0%, #2c3e50 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M18 16.98h-5.99v-5.97h5.99v5.97z"></path>
+                    <path d="M7.979 16.98H13.968V10.99H7.98v5.99z"></path>
+                    <path d="M7.979 5.99h5.989v6H7.98v-6z"></path>
+                  </svg>
+                  App Store
+                </a>
+              </div>
+              <style>
+                .store-button:hover {
+                  transform: translateY(-2px);
+                  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+                }
+
+                .store-button:active {
+                  transform: translateY(0);
+                }
+              </style>
+            </div>
+          </div>
+
+          
+        
+          
+          
+          <!-- finAssam Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                💰
+              </div>
+              <h3 class="project-title">finAssam</h3>
+              <p class="project-type">Government Financial Admin App</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">Mobile-first financial administration platform for Assam Government
+                enhancing transparency and workflow efficiency.</p>
+              <ul class="project-features">
+                <li class="project-feature">Paybill Module for salary bill submission</li>
+                <li class="project-feature">Employee &amp; payroll management workflows</li>
+                <li class="project-feature">Real-time treasury submission tracking</li>
+                <li class="project-feature">Admin dashboards for decision-making</li>
+              </ul>
+              <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Provider</span> <span
+                  class="tag">REST API</span> <span class="tag">Dashboard</span>
+              </div>
+              <div class="app-buttons" style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <a href="https://play.google.com/store/apps/details?id=com.kran.fin.finassam" target="_blank"
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M2 12h20"></path>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                  Google Play Store Store
+                </a>
+                <a href="https://apps.apple.com/in/app/finassam/id6743738818" target="_blank" class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #000000 0%, #2c3e50 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M18 16.98h-5.99v-5.97h5.99v5.97z"></path>
+                    <path d="M7.979 16.98H13.968V10.99H7.98v5.99z"></path>
+                    <path d="M7.979 5.99h5.989v6H7.98v-6z"></path>
+                  </svg>
+                  App Store
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Jharkhand Finance Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                📊
+              </div>
+              <h3 class="project-title">Finance Jharkhand</h3>
+              <p class="project-type">IFMS &amp; Treasury System</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">Integrated Financial Management System for Jharkhand Government with
+                comprehensive modules for transparency.</p>
+              <ul class="project-features">
+                <li class="project-feature">IFMS Dashboard &amp; Employee Portal</li>
+                <li class="project-feature">e-Pension Dashboard &amp; Treasury MIS</li>
+                <li class="project-feature">Public budget &amp; expenditure dashboards</li>
+                <li class="project-feature">Audit &amp; debt management modules</li>
+              </ul>
+              <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Provider</span> <span
+                  class="tag">Charts</span> <span class="tag">Analytics</span>
+              </div>
+              <div class="app-buttons" style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <a href="https://play.google.com/store/apps/details?id=com.kran.jharkhand_finance" target="_blank"
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M2 12h20"></path>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                  Google Play Store Store
+                </a>
+              </div>
+            </div>
+            
+
+          </div>
+
+            <!-- PCB Kerala Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                🌍
+              </div>
+              <h3 class="project-title">PCB Kerala</h3>
+              <p class="project-type">Pollution Control Mobile App</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">Comprehensive pollution control system for Kerala Pollution Control Board
+                with multi-role access and real-time monitoring.</p>
+              <ul class="project-features">
+                <li class="project-feature">Secure authentication for citizens, industries &amp; officers</li>
+                <li class="project-feature">Waste management tracking with geotagging</li>
+                <li class="project-feature">Real-time compliance dashboards</li>
+                <li class="project-feature">Offline support for field inspectors</li>
+              </ul>
+              <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Provider</span>
+              </div>
+              <div class="app-buttons" style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <a href="https://play.google.com/store/apps/details?id=com.kran.phoenix" target="_blank"
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M2 12h20"></path>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                  Google Play Store Store
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- VoteTrack Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                🗳️
+              </div>
+              <h3 class="project-title">VoteTrack</h3>
+              <p class="project-type">Voter & Event Participation Tracker</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">A comprehensive app for tracking eligible participants and monitoring
+                polling or event participation with real-time statistics.</p>
+              <ul class="project-features">
+                <li class="project-feature">Track eligible voters and participants</li>
+                <li class="project-feature">Real-time participation statistics</li>
+                <li class="project-feature">Engagement trend analysis</li>
+                <li class="project-feature">Event organization tools</li>
+              </ul>
+              <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Bloc</span> <span
+                  class="tag">Firebase</span> <span class="tag">Analytics</span>
+              </div>
+              <div class="app-buttons" style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <a href="https://play.google.com/store/apps/details?id=com.smartflix.vote_track" target="_blank"
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M2 12h20"></path>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                  Google Play Store Store
+                </a>
+                <a href="https://apps.apple.com/us/app/votetrack/id6754936191" target="_blank" class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #000000 0%, #2c3e50 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M18 16.98h-5.99v-5.97h5.99v5.97z"></path>
+                    <path d="M7.979 16.98H13.968V10.99H7.98v5.99z"></path>
+                    <path d="M7.979 5.99h5.989v6H7.98v-6z"></path>
+                  </svg>
+                  App Store
+                </a>
+              </div>
+            </div>
+          </div><!-- Wayanad Global KMCC Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                🌐
+              </div>
+              <h3 class="project-title">Wayanad Global KMCC</h3>
+              <p class="project-type">Community Engagement Platform</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">A community engagement platform for Wayanad Global KMCC with member
+                management and event coordination.</p>
+              <ul class="project-features">
+                <li class="project-feature">Member management system</li>
+                <li class="project-feature">Event coordination tools</li>
+                <li class="project-feature">Community announcements</li>
+                <li class="project-feature">Resource sharing</li>
+              </ul>
+              <div class="project-tags"><span class="tag">Flutter</span> <span class="tag">Provider</span> <span
+                  class="tag">Firebase</span> <span class="tag">Community</span>
+              </div>
+              <div class="app-buttons" style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <a href="https://play.google.com/store/apps/details?id=com.kmcc.wayanad.kmcc_mobile_app" target="_blank"
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M2 12h20"></path>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                  Google Play Store Store
+                </a>
+                <a href="https://apps.apple.com/us/app/wayanad-global-kmcc/id6752559903" target="_blank"
+                  class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #000000 0%, #2c3e50 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M18 16.98h-5.99v-5.97h5.99v5.97z"></path>
+                    <path d="M7.979 16.98H13.968V10.99H7.98v5.99z"></path>
+                    <path d="M7.979 5.99h5.989v6H7.98v-6z"></path>
+                  </svg>
+                  App Store
+                </a>
+              </div>
+              <style>
+                .store-button:hover {
+                  transform: translateY(-2px);
+                  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+                }
+
+                .store-button:active {
+                  transform: translateY(0);
+                }
+              </style>
+            </div>
+          </div>
+          
+          <!-- UAE Real Estate Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                🏠
+              </div>
+              <h3 class="project-title">Buysel.in</h3>
+              <p class="project-type">Property Management App</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">Comprehensive real estate platform for buying, selling, renting, and
+                leasing properties across UAE including plots, apartments, and commercial spaces.</p>
+              <ul class="project-features">
+                <li class="project-feature">Advanced property search with filters</li>
+                <li class="project-feature">Location-based property suggestions</li>
+                <li class="project-feature">Detailed property listings with images</li>
+                <li class="project-feature">User authentication and favorites</li>
+              </ul>
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">GetX</span>
+                <span class="tag">Google Maps</span>
+                <span class="tag">REST API</span>
+              </div>
+              <div class="app-buttons" style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <div class="store-button"
+                  style="flex: 1; min-width: 140px; display: inline-flex; align-items: center; justify-content: center; padding: 0.6rem 1rem; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); cursor: default;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 8px;">
+                    <path d="M12 2v4"></path>
+                    <path d="M12 18v4"></path>
+                    <path d="M4.93 4.93l2.83 2.83"></path>
+                    <path d="M16.24 16.24l2.83 2.83"></path>
+                    <path d="M2 12h4"></path>
+                    <path d="M18 12h4"></path>
+                    <path d="M4.93 19.07l2.83-2.83"></path>
+                    <path d="M16.24 7.76l2.83-2.83"></path>
+                  </svg>
+                  Under Development
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Anugraha Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                🏨
+              </div>
+              <h3 class="project-title">Anugraha</h3>
+              <p class="project-type">Hospitality Management App</p>
+            </div>
+            <div class="project-content">
+              <p class="project-description">Hospitality management application with enhanced stability, intuitive UI,
+                and seamless cross-platform performance.</p>
+              <ul class="project-features">
+                <li class="project-feature">Identified &amp; fixed critical bugs</li>
+                <li class="project-feature">Improved UI/UX elements</li>
+                <li class="project-feature">Enhanced navigation &amp; consistency</li>
+                <li class="project-feature">Performance optimization</li>
+              </ul>
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Analytics</span>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
       </div>
-      <div class="cert-item">
-       <div class="cert-icon">
-        💡
-       </div>
-       <div class="cert-text">
-        <div class="cert-title">
-         Flutter Workshop
+    </section><!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="section-container">
+        <div class="section-header"><span class="section-label">EXPERTISE</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Comprehensive skill set for modern mobile development</p>
         </div>
-        <div class="cert-issuer">
-         Cyra Learning Club, Tirur
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              💻
+            </div>
+            <h3 class="skill-title">Languages</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Dart</li>
+              <li class="skill-item">Java</li>
+              <li class="skill-item">C &amp; C++</li>
+              <li class="skill-item">HTML &amp; CSS</li>
+              <li class="skill-item">Bootstrap</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              📱
+            </div>
+            <h3 class="skill-title">Mobile Development</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Flutter Framework</li>
+              <li class="skill-item">iOS &amp; Android Development</li>
+              <li class="skill-item">Responsive UI Design</li>
+              <li class="skill-item">Material Design</li>
+              <li class="skill-item">Custom Animations</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              ⚡
+            </div>
+            <h3 class="skill-title">State Management</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Bloc</li>
+              <li class="skill-item">Provider</li>
+              <li class="skill-item">GetX</li>
+              <li class="skill-item">Clean Architecture</li>
+              <li class="skill-item">MVVM Pattern</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              🔧
+            </div>
+            <h3 class="skill-title">Backend &amp; Database</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Firebase Services</li>
+              <li class="skill-item">SQFlite</li>
+              <li class="skill-item">RESTful APIs</li>
+              <li class="skill-item">Spring Boot</li>
+              <li class="skill-item">API Integration</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              🛠️
+            </div>
+            <h3 class="skill-title">Tools &amp; DevOps</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Git &amp; GitHub</li>
+              <li class="skill-item">GitLab</li>
+              <li class="skill-item">CI/CD Pipelines</li>
+              <li class="skill-item">Unit Testing</li>
+              <li class="skill-item">Integration Testing</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              🎯
+            </div>
+            <h3 class="skill-title">Soft Skills</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Team Collaboration</li>
+              <li class="skill-item">Problem Solving</li>
+              <li class="skill-item">Adaptability</li>
+              <li class="skill-item">Communication</li>
+              <li class="skill-item">Time Management</li>
+            </ul>
+          </div>
         </div>
-       </div>
       </div>
-      <div class="cert-item">
-       <div class="cert-icon">
-        🗣️
-       </div>
-       <div class="cert-text">
-        <div class="cert-title">
-         English Communication Training
+    </section><!-- Education Section -->
+    <section class="education-section" id="education">
+      <div class="section-container">
+        <div class="section-header"><span class="section-label">EDUCATION</span>
+          <h2 class="section-title">Academic Background</h2>
+          <p class="section-subtitle">Foundation in computer engineering and sciences</p>
         </div>
-        <div class="cert-issuer">
-         Speak Eazy
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              🎓
+            </div>
+            <h3 class="timeline-title">Diploma in Computer Engineering</h3>
+            <p class="timeline-institution">IPT &amp; GPTC Shoranur</p>
+            <p class="timeline-date">July 2020 – April 2023</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              📚
+            </div>
+            <h3 class="timeline-title">Higher Secondary – Biology Science</h3>
+            <p class="timeline-institution">GOHSS, Pattambi</p>
+            <p class="timeline-date">June 2018 – March 2020</p>
+          </div>
         </div>
-       </div>
       </div>
-      <div class="cert-item">
-       <div class="cert-icon">
-        🎖️
-       </div>
-       <div class="cert-text">
-        <div class="cert-title">
-         National Cadet Corps
+    </section><!-- Certifications Section -->
+    <section class="certifications-section">
+      <div class="section-container">
+        <div class="section-header"><span class="section-label">ACHIEVEMENTS</span>
+          <h2 class="section-title">Certifications &amp; Training</h2>
+          <p class="section-subtitle">Continuous learning and professional development</p>
         </div>
-        <div class="cert-issuer">
-         A, B &amp; C Certificates
+        <div class="cert-grid">
+          <div class="cert-item">
+            <div class="cert-icon">
+              🏆
+            </div>
+            <div class="cert-text">
+              <div class="cert-title">
+                Flutter Developer Certificate
+              </div>
+              <div class="cert-issuer">
+                Camerin Group (Dec 2023 – Apr 2024)
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon">
+              📱
+            </div>
+            <div class="cert-text">
+              <div class="cert-title">
+                Flutter Online Course
+              </div>
+              <div class="cert-issuer">
+                Udemy
+              </div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon">
+              💡
+            </div>
+            <div class="cert-text">
+              <div class="cert-title">
+                Flutter Workshop
+              </div>
+              <div class="cert-issuer">
+                Cyra Learning Club, Tirur
+              </div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon">
+              🎯
+            </div>
+            <div class="cert-text">
+              <div class="cert-title">
+                Industrial Training: Python + Android
+              </div>
+              <div class="cert-issuer">
+                RISS Technologies (Sep – Oct 2022)
+              </div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon">
+              🗣️
+            </div>
+            <div class="cert-text">
+              <div class="cert-title">
+                English Communication Training
+              </div>
+              <div class="cert-issuer">
+                Speak Eazy
+              </div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon">
+              🎖️
+            </div>
+            <div class="cert-text">
+              <div class="cert-title">
+                National Cadet Corps
+              </div>
+              <div class="cert-issuer">
+                A, B &amp; C Certificates
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
       </div>
-     </div>
-    </div>
-   </section><!-- Contact Section -->
-   <section class="contact-section" id="contact">
-    <div class="contact-content">
-     <div class="section-header"><span class="section-label">GET IN TOUCH</span>
-      <h2 class="section-title">Let's Work Together</h2>
-      <p class="section-subtitle">Available for freelance projects and full-time opportunities in Dubai &amp; remote</p>
-     </div>
-     <div class="contact-links">
-      <a href="#" class="contact-link" id="emailLink"> <span class="contact-icon">📧</span> <span class="contact-label">Email</span> <span class="contact-text" id="emailAddress">shabnusaman2001@gmail.com</span> </a>
-      <a href="tel:+971589136277" class="contact-link"> <span class="contact-icon">📱</span> <span class="contact-label">Phone</span> <span class="contact-text">+971 58 913 6277</span> </a>
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link" id="githubLink"> <span class="contact-icon">💻</span> <span class="contact-label">GitHub</span> <span class="contact-text" id="githubUsername">View Profile</span> </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link" id="linkedinLink"> <span class="contact-icon">💼</span> <span class="contact-label">LinkedIn</span> <span class="contact-text" id="linkedinUsername">Connect With Me</span> </a>
-     </div>
-    </div>
-   </section><!-- Footer -->
-   <footer class="footer">
-    <p class="footer-text">© 2023 <strong>Shabnu Saman</strong> - Flutter Developer | Al Karama, Dubai 🇦🇪</p>
-    <p class="footer-text" style="margin-top: 0.5rem; font-size: 0.875rem;">Languages: English, Malayalam</p>
-   </footer>
+    </section><!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-content">
+        <div class="section-header"><span class="section-label">GET IN TOUCH</span>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">Available for freelance projects and full-time opportunities in Dubai &amp; remote
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="#" class="contact-link" id="shabnusaman2001@gmail.com"> <span class="contact-icon">📧</span> <span
+              class="contact-label">Email</span> <span class="contact-text"
+              id="emailAddress">shabnusaman2001@gmail.com</span> </a>
+          <a href="tel:+971589136277" class="contact-link"> <span class="contact-icon">📱</span> <span
+              class="contact-label">Phone</span> <span class="contact-text">+971 58 913 6277</span> </a>
+          <a href="https://github.com/ShabnuSaman" target="_blank" rel="noopener noreferrer" class="contact-link" id="githubLink">
+            <span class="contact-icon">💻</span> <span class="contact-label">GitHub</span> <span class="contact-text"
+              id="githubUsername">View Profile</span> </a>
+          <a href="https://www.linkedin.com/in/shabnu-saman-0050802b6/" target="_blank" rel="noopener noreferrer" class="contact-link"
+            id="linkedinLink"> <span class="contact-icon">💼</span> <span class="contact-label">LinkedIn</span> <span
+              class="contact-text" id="linkedinUsername">Connect With Me</span> </a>
+        </div>
+      </div>
+    </section><!-- Footer -->
+    <footer class="footer">
+      <p class="footer-text">© 2023 <strong>Shabnu Saman</strong> - Flutter Developer | Al Karama, Dubai 🇦🇪</p>
+      <p class="footer-text" style="margin-top: 0.5rem; font-size: 0.875rem;">Languages: English, Malayalam</p>
+    </footer>
   </div>
   <script>
     const defaultConfig = {
@@ -1205,7 +1494,7 @@
       const baseSize = newConfig.font_size || defaultConfig.font_size;
 
       document.body.style.fontFamily = `${customFont}, ${baseFontStack}`;
-      
+
       document.getElementById('developerName').textContent = newConfig.developer_name || defaultConfig.developer_name;
       document.getElementById('jobTitle').textContent = newConfig.job_title || defaultConfig.job_title;
       document.getElementById('tagline').textContent = newConfig.tagline || defaultConfig.tagline;
@@ -1312,9 +1601,11 @@
           ["linkedin_username", cfg.linkedin_username || defaultConfig.linkedin_username]
         ])
       });
-      
+
       config = window.elementSdk.config;
     }
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9abd00bce3442e9b',t:'MTc2NTM3MjQ0MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+  <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'9abd00bce3442e9b',t:'MTc2NTM3MjQ0MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
 </html>
